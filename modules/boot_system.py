@@ -14,7 +14,7 @@ def boot_system():
         attempts+=1
 
         if pin==230511: 
-            print('Access granted! Welcome sir what would you want me to do today?')
+            print('Access granted!')
             break 
 
         elif attempts==4:
